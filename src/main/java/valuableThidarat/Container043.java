@@ -5,7 +5,7 @@ public class Container043 {
     private final Item043[] items = new Item043[5];
     @Override
     public String toString() {
-        return "Count: " + Tool043.count043(items) + ", " + Arrays.toString(items);
+        return "Count: " + Tool043.count999(items) + ", " + Arrays.toString(items);
     }
     public boolean add(Item043 item) {
         int check = 0;

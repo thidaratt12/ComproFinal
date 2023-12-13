@@ -1,5 +1,7 @@
 package valuableThidarat;
-import
+
+import utilThidarat.Tool043;
+
 public class Item043 {
     public class Item043;
     private final String name;
@@ -10,7 +12,7 @@ public class Item043 {
         this.amount = amount;
     }
     public static Item043 create(String name, int amount){
-        if (Tool043.isUsable043(name) && amount > 0) return new Item043(name,amount);
+        if (Tool043.isUsable999(name) && amount > 0) return new Item043(name,amount);
         return null;
     }
     @Override

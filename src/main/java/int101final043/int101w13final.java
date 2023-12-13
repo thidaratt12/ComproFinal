@@ -15,10 +15,10 @@ public class int101w13final {
     }
     static void testTool(){
         Object[] objects = new Object[0];
-        System.out.println(Tool043.isUsable043(""));
-        System.out.println(Tool043.isUsable043("Hello"));
-        System.out.println(Tool043.isUsable043(objects));
-        System.out.println("Count : " + Tool043.count043(objects));
+        System.out.println(Tool043.isUsable999(""));
+        System.out.println(Tool043.isUsable999("Hello"));
+        System.out.println(Tool043.isUsable999(objects));
+        System.out.println("Count : " + Tool043.count999(objects));
         objects = new Object[5];
         System.out.println(Tool043.isUsable999(objects));
         System.out.println(Tool043.count999(objects));
@@ -27,8 +27,8 @@ public class int101w13final {
         System.out.println(objects[1]);
         objects[2] = 5;
         objects[3] = true;
-        System.out.println(Tool043.isUsable043(objects));
-        System.out.println(Tool043.count043(objects));
+        System.out.println(Tool043.isUsable999(objects));
+        System.out.println(Tool043.count999(objects));
     }
     static void testItem() {
         System.out.println("Create: " + Item043.create("Fred", 10));
@@ -59,7 +59,5 @@ public class int101w13final {
         System.out.println(container);
         container.remove(item1);
         System.out.println(container);
-    }
-}
     }
 }
